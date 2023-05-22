@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <header>
+
+        <img class="logo" src="imagenes/Frame 6.png.png" alt="logo Alura">
+    </header>
+
+    <main>
+
+        <section>
+
+            <textarea class="text-area" cols="30" rows="10"     placeholder="Ingrese el texto aquí"></textarea>
+
+            <div>
+
+                <h6 class="informacion"> Solo letras minusculas y sin acentos</h6>
+            </div>  
+            
+            <div class="botones">
+
+                <button class="boton-encriptar" onclick="botonEncriptar()">Encriptar</button>
+                <button class="boton-desencriptar" onclick="botonDesencriptar()">Desencriptar</button>
+            </div>
+            
+        </section>
+
+
+        <section>
+
+            <textarea class="mensaje" cols="30" rows="11">
+            </textarea>
+
+            <div> <img class="my-image" src="imagenes/Munheco.png.png"></div>
+
+            <div>
+                
+                <button class="boton-copiar" onclick="copiarTexto()">Copiar</button>
+                
+
+            </div>
+
+            <div></div>
+                <footer>
+                    <p>Elaborado por: Maureen Pineda S</p>
+                </footer>
+            </div>
+              
+        </section>
+
+    </main>
+    <script src="scrip.js"></script>
+</body>
+</html>
